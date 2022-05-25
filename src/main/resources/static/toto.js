@@ -6,7 +6,7 @@ function test(){
     $.ajax({
       type: "POST",
       url: url,
-      data: JSON.stringify(data),
+      data: JSON.stringify({"data" : data}),
       contentType: "application/json",
       dataType: "json",
       success: true

@@ -13,5 +13,5 @@ import java.util.List;
 @NoArgsConstructor
 @AllArgsConstructor
 public class WrapperTest {
-    private ArrayList<Integer> ids;
+    private List<Integer> data;
 }
